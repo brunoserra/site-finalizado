@@ -1,0 +1,159 @@
+<html>
+<head>
+  <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Hell of Iron </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/estrutura.css">
+     <link rel="stylesheet" type="text/css" href="css/foto.css">
+      <link rel="stylesheet" type="text/css" media="screen" href="css/cadastro.css">
+    
+  </head>
+  <script src="javascript/alteracao.js"></script>
+   
+<body>
+  <div class="conteiner"> 
+  <div class="interface">
+ <nav class="menu">
+    <ul>
+    <li onmousemove="mudaFoto('src/icones/home.jpg')" onmouseout="mudaFoto('src/banda5.jpg')"><a href="index.html">Home</a></li>
+    <li onmousemove="mudaFoto('src/icones/ic_edit/origem.jpg')" onmouseout="mudaFoto('src/banda5.jpg')"><a href="origem.html">Origem</a></li>
+    
+    <li onmousemove="mudaFoto('src/icones/ic_edit/mascote.jpg')" onmouseout="mudaFoto('src/banda5.jpg')"><a href="mascote.html">Mascote</a></li>
+    <li onmousemove="mudaFoto('src/icones/bandajpg.jpg')" onmouseout="mudaFoto('src/banda5.jpg')"><a href="abanda.html">A Banda</a>
+      <ul>
+        <li><a href="vocalista.html">Vocalista</a></li>
+        <li><a href="baixista.html">Baixista</a></li>
+        <li><a href="guitarrista.html">Guitarrista</a></li>
+        <li><a href="baterista.html">Baterista</a></li>
+      </ul></li>
+    <li onmousemove="mudaFoto('src/icones/turne.jpg')" onmouseout="mudaFoto('src/banda5.jpg')"><a href="turnes.html">Turnes</a>
+      <ul>
+        <li><a href="anos80.html">Anos 80</li></a>
+        <li><a href="anos90.html">Anos 90 </li></a>
+        <li><a href="anos2000.html">Anos 2000</li></a>
+      </ul>
+    <li onmousemove="mudaFoto('src/icones/lpiron.jpg')" onmouseout="mudaFoto('src/banda5.jpg')"><a href="album.html">Albuns</a></li>
+    <li onmousemove="mudaFoto('src/icones/ic_edit/microfone.jpg')" onmouseout="mudaFoto('src/banda5.jpg')"><a href="voce.html">Your Experience</a></li>
+    <li><a href="cadastro.html">Scream for us</a></li>
+     
+    </ul>
+  </nav>
+
+  <hgroup class="titulos">
+    <h1 id="t1">Welcome to Hell</h1> 
+       </hgroup>
+
+      <figure class="foto">
+      <img id="icone" src="src/eddie1_jpg.jpg"></figure>
+
+        <figure class="foto">
+      <img id="igc" src="src/eddie9.jpg"></figure>
+
+      <figure class="foto">
+      <img id="igc1" src="src/eddie004.jpg"></figure>
+
+
+
+      <div class="cad-unico">
+       <form method="post" action="mailto:brunorrrossi@gmail.com">
+    <fieldset id="nome" >
+    <legend>Fale com a gente</legend>
+
+    <p><label for="nome">Nome</label>
+    <input id="txt" type="text" min="1" max="300" required="tex" name="nome" size="40"  placeholder="Digite seu Nome aqui"></p>
+
+    <p><label for="nascimento">Data de Nascimeto</label>
+    <input id="txt" type="date" required="date" name="nascimento"></input></p>
+
+    <p><label for="cidade">Cidade</label>
+      <input id="txt" type="text" required="text" name="cidade" placeholder="Ex:São Paulo"></p>
+    
+ 
+    <p><label>UF</label>
+    <select name="estadosdoBrasil" size="1">
+      <option>AC</option>
+      <option>AL</option>
+      <option>AM</option>
+      <option>AP</option>
+      <option>BA</option>
+      <option>CE</option>
+      <option>DF</option>
+      <option>ES</option>
+      <option>GO</option>
+      <option>MA</option>
+      <option>MG</option>
+      <option>MS</option>
+      <option>MT</option>
+      <option>PA</option>
+      <option>PB</option>
+      <option>PE</option>
+      <option>PI</option>
+      <option>PR</option>
+      <option>RJ</option>
+      <option>RN</option>
+      <option>RO</option>
+      <option>RR</option>
+      <option>RS</option>
+      <option>SC</option>
+      <option>SE</option>
+      <option>SP</option>
+    </select></p>
+</fieldset>
+<fieldset id="sexo">
+    <legend>Sexo</legend>
+    <p>
+    <input type="radio" required="radio" name="sexo">
+   <label id="sx" for="Masculino">Masculino</label>
+    <input type="radio" required="radio" name="sexo" > 
+   <label for="Feminino">Feminino</label></p>
+  </fieldset>
+
+  <fieldset>
+    <legend>Envie sua mensagem</legend>
+    
+    <p><label>E-mail</label>
+      <input id="txt" type="email" required="email" name="email" placeholder="digite seu e-mail" > </p>
+
+    <p><label for="senha">Senha</label>
+      <input id="txt" type="password" required="text" placeholder="Ex:Alpha125">
+    </p>
+
+   <p><label for="msg">Mensagem</label></p>
+        <textarea id="msg"  name= "msg" required="msg" cols="50" rows="5" placeholder="Deixe aqui sua mensagem"></textarea>
+    
+    <p>
+      <input id="receber" type="checkbox" name="receber_info" checked>
+      <label id="receber1">Deseja receber nossas novidades</label>
+    </p>
+    </fieldset>
+    <input id="enviar" type="submit" name="Enviar" value="Enviar"/>
+  <input id="enviar" type="reset" value="Apagar Campos">
+</div>
+</form>
+
+
+
+<div class="rodape">
+      <footer>
+        <h5>Midias Oficiais Iron </h5>
+        <a href="https://www.facebook.com/ironmaiden">
+          <img src="src/icones/icone facebook.jpg" id="face"></a>
+        <a href="https://www.instagram.com/ironmaiden/">
+        <img src="src/icones/icone instagran.jpg" id="instagran"></a>
+        <a href="https://open.spotify.com/artist/6mdiAmATAx73kdxrNrnlao">
+        <img src="src/icones/iconespotfy.jpg" id="spot"></a>
+        <a href="https://twitter.com/IronMaiden">
+        <img src="src/icones/icone twiter.jpg" id="twiter"></a>
+        <a href="https://www.youtube.com/user/ironmaiden">
+          <img src="src/icones/icone youtube.jpg" id="youtube">
+        </a>
+        <a href="https://ironmaiden.com/">
+          <img src="src/logo2.jpg" id="site">
+        </a>
+        </footer>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

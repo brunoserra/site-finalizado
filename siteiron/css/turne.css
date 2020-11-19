@@ -1,0 +1,446 @@
+@charset "UTF-8";
+ul.turnes {
+	width: 100%;
+	float: left;
+	top: 325px;
+	margin-left: 50px;
+	list-style: none;
+	position: absolute;
+}
+
+ul.turnes li span {
+	opacity: 0;
+	color: white;
+	text-shadow: 1px 1px 1px #000000;
+	background-color: rgba(0,0,0,.5);
+	font-size: 15pt;
+	line-height: 370px;
+	padding: 0px;
+}
+ul.turnes li:hover span{
+	opacity: 1;
+}
+
+ul.turnes li{
+	float: left;
+	width: 250px;
+	height: 250px;
+	margin: 5px;
+	-webkit-transition: all .3s ease-in;
+	
+}
+
+ul.turnes li:hover{
+	-webkit-transform: scale(1.5);
+}
+
+ul.turnes li#tour1{
+	background:url('../src/TURNE/torueditada/iron-maiden-tour-1980.jpg') no-repeat;
+	background-position: 50%;
+	background-size:70% 70%;
+	background-color:#660000;
+}
+ul.turnes li#tour1:hover {
+	background-position: 0px 0px;
+	background-size: 100% 100%;
+}
+ul.turnes li#tour2{
+	background:url('../src/TURNE/torueditada/iron-maiden-the-beast-on-the-road-1982.jpg') no-repeat;
+	background-position: 50% ;
+	background-size: 70% 70%;
+	background-color: #660000;
+}
+ul.turnes li#tour2:hover {
+	background-position: 0px 0px;
+	background-size: 100% 100%;
+}	
+
+ul.turnes li#tour3{
+	background:url('../src/TURNE/torueditada/Killer_World_Tour.jpg') no-repeat;
+	background-position: 50%;
+	background-size: 70% 70%;
+	background-color: #660000;
+}
+ul.turnes li#tour3:hover {
+	background-position: 0px 0px;
+	background-size: 100% 100%;
+}
+ul.turnes li#tour4{
+	background:url('../src/TURNE/The Beast on the Road 82.jpg') no-repeat;
+	background-position: 50% ;
+	background-size: 70% 70%;
+	background-color: #660000;
+}
+ul.tunres li#tour4:hover {
+	background-position: 0px 0px;
+	background-size: 400px 400px;
+}
+ul.turnes li#tour5{
+	background:url('../src/TURNE/torueditada/iron-maiden-world-piece-tour-1983.jpg') no-repeat;
+	background-position: 50%;
+	background-size: 70% 70%;
+	background-color: #660000;
+}
+ul.turnes li#tour5:hover {
+	background-position: 0px 0px;
+	background-size: 100% 100%;
+}
+ul.turnes li#tour6{
+	background:url('../src/TURNE/torueditada/iron-maiden-world-slavery-tour-1984.jpg') no-repeat;
+	background-position: 50%;
+	background-size: 70% 70%;
+	background-color: #660000;
+}
+ul.turnes li#tour6:hover {
+	background-position: 0px 0px;
+	background-size: 100% 100%;
+}
+
+ul.turnes li#tour7{
+	background:url('../src/TURNE/torueditada/iron-maiden-somewhere-on-tour-1986.jpg') no-repeat;
+	background-position: 50%;
+	background-size: 70% 70%;
+	background-color: #660000;
+}
+ul.turnes li#tour7:hover {
+	background-position: 0px 0px;
+	background-size: 100% 100%;
+}
+ul.turnes li#tour8{
+	background:url('../src/TURNE/torueditada/iron-maiden-seventh-tour-of-a-seventh-tour-1988.jpg') no-repeat;
+	background-position: 50%;
+	background-size: 70% 70%;
+	background-color: #660000;
+}
+ul.turnes li#tour8:hover {
+	background-position: 0px 0px;
+	background-size: 100% 100%;
+}
+ul.turnes li#tour9{
+	background:url('../src/TURNE/torueditada/iron-maiden-no-prayer-on-the-road-1990.jpg') no-repeat;
+	background-position: 50%;
+	background-size: 70% 70%;
+	background-color: #660000;
+}
+ul.turnes li#tour9:hover {
+background-position: 0px 0px;
+	background-size: 100% 100%;
+}
+ul.turnes li#tour10{
+	background:url('../src/TURNE/torueditada/iron-maiden-fear-of-the-dark-tour-1992.jpg') no-repeat;
+	background-position: 50%;
+	background-size: 70% 70%;
+	background-color: #660000;
+}
+ul.turnes li#tour10:hover {
+	background-position: 0px 0px;
+	background-size: 100% 100%;
+}
+
+ul.turnes li#tour11{
+	background:url('../src/TURNE/torueditada/iron-maiden-real-live-tour-1994.jpg') no-repeat;
+	background-position: 50%;
+	background-size: 70% 70%;
+	background-color: #660000;
+}
+ul.turnes li#tour11:hover {
+	background-position: 0px 0px;
+	background-size: 100% 100%;
+}
+ul.turnes li#tour12{
+	background:url('../src/TURNE/iron-maiden-the-x-factour-1995.jpg') no-repeat;
+	background-position: 50%;
+	background-size: 70% 70%;
+	background-color: #660000;
+}
+ul.turnes li#tour12:hover {
+	background-position: 0px 0px;
+	background-size: 100% 100%;;
+}
+
+ul.turnes li#tour13{
+	background:url('../src/TURNE/torueditada/iron-maiden-virtual-xi-world-1998.jpg') no-repeat;
+	background-position: 50%;
+	background-size: 70% 70%;
+	background-color: #660000;
+}
+ul.turnes li#tour13:hover {
+	background-position: 0px 0px;
+	background-size: 100% 100%;
+}
+ul.turnes li#tour14{
+	background:url('../src/TURNE/torueditada/iron-maiden-ed-hunter-tour-1999.jpg') no-repeat;
+	background-position: 50%;
+	background-size: 70% 70%;
+	background-color: #660000;
+}
+ul.turnes li#tour14:hover {
+	background-position: 0px 0px;
+	background-size: 100% 100%;
+}
+
+ul.turnes li#tour15{
+	background:url('../src/TURNE/torueditada/brave-new-world-tour-2000.jpg') no-repeat;
+	background-position: 50%;
+	background-size: 70% 70%;
+	background-color: #660000;
+}
+ul.turnes li#tour15:hover {
+	background-position: 0px 0px;
+	background-size: 100% 100%;
+}
+
+ul.turnes li#tour16{
+	background:url('../src/TURNE/torueditada/iron-maiden-give-me-ed-til-im-dead-tour-2003.jpg') no-repeat;
+	background-position: 50%;
+	background-size: 70% 70%;
+	background-color: #660000;
+}
+ul.turnes li#tour16:hover {
+	background-position: 0px 0px;
+	background-size: 100% 100%;
+}
+ul.turnes li#tour17{
+	background:url('../src/TURNE/torueditada/iron-maiden-dance-of-death-tour-2003.jpg') no-repeat;
+	background-position: 50%;
+	background-size: 70% 70%;
+	background-color: #660000;
+}
+ul.turnes li#tour17:hover {
+	background-position: 0px 0px;
+	background-size: 100% 100%;
+}
+
+ul.turnes li#tour18{
+	background:url('../src/eddie8.jpg') no-repeat;
+	background-position: 50%;
+	background-size: 70% 70%;
+	background-color: #660000;
+}
+ul.turnes li#tour18:hover {
+	background-position: 0px 0px;
+	background-size: 100% 100%;
+}
+ul.turnes li#tour19{
+	background:url('../src/TURNE/iron-maiden-a-matter-of-life-and-death-tour-2006.jpg') no-repeat;
+	background-position: 50%;
+	background-size: 70% 70%;
+	background-color: #660000;
+}
+ul.turnes li#tour19:hover {
+	background-position: 0px 0px;
+	background-size: 100% 100%;
+}
+
+ul.turnes li#tour20{
+	background:url('../src/TURNE/iron-maiden-somewhere-back-in-time-tour-2008.jpg') no-repeat;
+	background-position: 50%;
+	background-size: 70% 70%;
+	background-color: #660000;
+}
+ul.turnes li#tour20:hover {
+	background-position: 0px 0px;
+	background-size: 100% 100%;
+}
+
+ul.turnes li#tour21{
+	background:url('../src/TURNE/final_frontier_18_ironmaidenwallpaper-com.jpg') no-repeat;
+	background-position: 50%;
+	background-size: 70% 70%;
+	background-color: #660000;
+}
+ul.turnes li#tour21:hover {
+	background-position: 0px 0px;
+	background-size: 100% 100%;
+}
+
+ul.turnes li#tour22{
+	background:url('../src/TURNE/iron-maiden-maiden-england-tour-2012.jpg') no-repeat;
+	background-position: 50%;
+	background-size: 70% 70%;
+	background-color: #660000;
+}
+ul.turnes li#tour22:hover {
+	background-position: 0px 0px;
+	background-size: 100% 100%;
+}
+ul.turnes li#tour23{
+	background:url('../src/TURNE/the book of souls.jpg') no-repeat;
+	background-position: 50%;
+	background-size: 70% 70%;
+	background-color: #660000;
+}
+ul.turnes li#tour23:hover {
+	background-position: 0px 0px;
+	background-size: 100% 100%;
+}
+ul.turnes li#tour24{
+	background:url('../src/TURNE/iron-maiden-legacy-of-the-beast-tour-2018.jpg') no-repeat;
+	background-position: 50%;
+	background-size: 70% 70%;
+	background-color: #660000;
+}
+ul.turnes li#tour24:hover {
+	background-position: 0px 0px;
+	background-size: 100% 100%;
+}
+ul.turnes li#tour25{
+	background:url('../src/ALBUM/albumeditadas/Iron-Maiden-Album-1980.jpg') no-repeat;
+	background-position: 50%;
+	background-size: 70% 70%;
+	background-color: #660000;
+}
+ul.turnes li#tour25:hover {
+	background-position: 0px 0px;
+	background-size: 100% 100%;
+}
+ul.turnes li#tour26{
+	background:url('../src/ALBUM/albumeditadas/iron-maiden-killers-1981.jpg') no-repeat;
+	background-position: 50%;
+	background-size: 70% 70%;
+	background-color: #660000;
+}
+ul.turnes li#tour26:hover {
+	background-position: 0px 0px;
+	background-size: 100% 100%;
+}
+ul.turnes li#tour27{
+	background:url('../src/ALBUM/albumeditadas/Iron-Maiden-The-Number-of-the-Beast.jpg') no-repeat;
+	background-position: 50%;
+	background-size: 70% 70%;
+	background-color: #660000;
+}
+ul.turnes li#tour27:hover {
+	background-position: 0px 0px;
+	background-size: 100% 100%;
+}
+ul.turnes li#tour28{
+	background:url('../src/ALBUM/albumeditadas/album_iron_maiden_piece_of_mind.jpg') no-repeat;
+	background-position: 50%;
+	background-size: 70% 70%;
+	background-color: #660000;
+}
+ul.turnes li#tour28:hover {
+	background-position: 0px 0px;
+	background-size: 100% 100%;
+}
+ul.turnes li#tour29{
+	background:url('../src/ALBUM/albumeditadas/1984---Powerslave-Album.jpg') no-repeat;
+	background-position: 50%;
+	background-size: 70% 70%;
+	background-color: #660000;
+}
+ul.turnes li#tour29:hover {
+	background-position: 0px 0px;
+	background-size: 100% 100%;
+}
+ul.turnes li#tour30{
+	background:url('../src/ALBUM/albumeditadas/200px-1986---Somewhere-in-Time-Album.jpg') no-repeat;
+	background-position: 50%;
+	background-size: 70% 70%;
+	background-color: #660000;
+}
+ul.turnes li#tour30:hover {
+	background-position: 0px 0px;
+	background-size: 100% 100%;
+}
+ul.turnes li#tour31{
+	background:url('../src/ALBUM/albumeditadas/250px1988---Seventh-Son-Of-A-Seventh-Son-Album.jpg') no-repeat;
+	background-position: 50%;
+	background-size: 70% 70%;
+	background-color: #660000;
+}
+ul.turnes li#tour31:hover {
+	background-position: 0px 0px;
+	background-size: 100% 100%;
+}
+ul.turnes li#tour32{
+	background:url('../src/ALBUM/albumeditadas/1990---No-Prayer-For-The-Dying-Album.jpg') no-repeat;
+	background-position: 50%;
+	background-size: 70% 70%;
+	background-color: #660000;
+}
+ul.turnes li#tour32:hover {
+	background-position: 0px 0px;
+	background-size: 100% 100%;
+}
+ul.turnes li#tour33{
+	background:url('../src/ALBUM/albumeditadas/1992---Fear-Of-The-Dark-Album.jpg') no-repeat;
+	background-position: 50%;
+	background-size: 70% 70%;
+	background-color: #660000;
+}
+ul.turnes li#tour33:hover {
+	background-position: 0px 0px;
+	background-size: 100% 100%;
+}
+ul.turnes li#tour34{
+	background:url('../src/ALBUM/albumeditadas/1995-The-X-factor-Album.jpg') no-repeat;
+	background-position: 50%;
+	background-size: 70% 70%;
+	background-color: #660000;
+}
+ul.turnes li#tour34:hover {
+	background-position: 0px 0px;
+	background-size: 100% 100%;
+}
+ul.turnes li#tour35{
+	background:url('../src/ALBUM/albumeditadas/1998---Virtual-XI-Album.jpg') no-repeat;
+	background-position: 50%;
+	background-size: 70% 70%;
+	background-color: #660000;
+}
+ul.turnes li#tour35:hover {
+	background-position: 0px 0px;
+	background-size: 100% 100%;
+}
+ul.turnes li#tour36{
+	background:url('../src/ALBUM/albumeditadas/2000---Brave-New-World-Album.jpg') no-repeat;
+	background-position: 50%;
+	background-size: 70% 70%;
+	background-color: #660000;
+}
+ul.turnes li#tour36:hover {
+	background-position: 0px 0px;
+	background-size: 100% 100%;
+}
+ul.turnes li#tour37{
+	background:url('../src/ALBUM/albumeditadas/2003---Dance-Of-Death-Album.jpg') no-repeat;
+	background-position: 50%;
+	background-size: 70% 70%;
+	background-color: #660000;
+}
+ul.turnes li#tour37:hover {
+	background-position: 0px 0px;
+	background-size: 100% 100%;
+}
+ul.turnes li#tour38{
+	background:url('../src/ALBUM/albumeditadas/2006---A-Matter-of-Life-and-Death-Album.jpg') no-repeat;
+	background-position: 50%;
+	background-size: 70% 70%;
+	background-color: #660000;
+}
+ul.turnes li#tour38:hover {
+	background-position: 0px 0px;
+	background-size: 100% 100%;
+}
+ul.turnes li#tour39{
+	background:url('../src/ALBUM/albumeditadas/2010---The-Final-Fontier-Album.jpg') no-repeat;
+	background-position: 50%;
+	background-size: 70% 70%;
+	background-color: #660000;
+}
+ul.turnes li#tour39:hover {
+	background-position: 0px 0px;
+	background-size: 100% 100%;
+}
+ul.turnes li#tour40{
+	background:url('../src/ALBUM/albumeditadas/the-book-of-souls-iron-maiden-2015-album-cover.jpg') no-repeat;
+	background-position: 50%;
+	background-size: 70% 70%;
+	background-color: #660000;
+}
+ul.turnes li#tour40:hover {
+	background-position: 0px 0px;
+	background-size: 100% 100%;
+}
